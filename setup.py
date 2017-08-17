@@ -9,6 +9,6 @@ setup(name='module',
       packages=find_packages(),
       package_data={'module': ['parser/keywords_parser/keywords_provider/data/techs_keywords.csv', 'crawler/data/data.db', 'urlprovider/data/urls.txt']},
       install_requires=[
-          'nltk'
+          'nltk', 'beautifulsoup4', 'requests', 'numpy'
       ],
       zip_safe=False)
